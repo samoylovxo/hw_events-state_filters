@@ -1,0 +1,22 @@
+.filterList {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.filter {
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+
+  color: #000;
+
+  cursor: pointer;
+  transition: border-color 0.4s, background-color 0.4s;
+}
+
+.filter.active {
+  background-color: #dfdfdf;
+  border-color: transparent;
+}

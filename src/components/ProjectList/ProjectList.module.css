@@ -1,0 +1,12 @@
+.projectList {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+/* 
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
